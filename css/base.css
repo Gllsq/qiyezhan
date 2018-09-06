@@ -1,0 +1,17 @@
+/*
+* @Author: hp
+* @Date:   2018-08-13 09:07:22
+* @Last Modified by:   hp
+* @Last Modified time: 2018-08-13 09:12:06
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}

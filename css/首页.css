@@ -1,0 +1,591 @@
+/*
+* @Author: hp
+* @Date:   2018-08-28 09:13:40
+* @Last Modified by:   hp
+* @Last Modified time: 2018-09-06 16:16:38
+*/
+html body{
+	font-family: "微软雅黑";
+}
+nav{
+	width: 100%;
+	height: 80px;
+	top: 0;
+	left: 0;
+}
+nav .con_l{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+nav .con_l a.left{
+	width: 228px;
+	height: 39.95px;
+	background-image: url('../img/1.jpg');
+	background-size: cover;
+	margin-top: 20px;
+}
+nav .con_l .list a{
+	float: left;
+    height: 80px;
+    text-align: center;
+    color: #404040;
+    line-height:80px;
+    font-size: 16px;
+    margin-left: 79px;
+}
+nav .con_l .list a:hover{
+	background-color: #337ab7;
+	color: #ffffff;
+	text-decoration: none;
+}
+nav .con_l .list a.icon{
+	display: none;
+}
+.banner{
+	/* text-align: center; */
+    overflow: hidden;
+    position: relative;
+    display: block;
+}
+.banner .imgs{
+    width: 100%;
+    height: 344.35px;
+}
+.banner .imgs img{
+    display: block;
+    /* margin: auto; */
+    width: 100%;
+    /* position: absolute; */
+    /* left: 1519.2px; */
+}
+.wrap{
+	width: 100%;
+	padding-bottom: 30px;
+    padding-top: 20px;
+}
+.wrap .top{
+	width: 100%;
+	height: 105px;
+	text-align: center;
+	padding-top: 20px;
+}
+.wrap .top span{
+	font-size: 32px;
+	line-height: 40px;
+	display: block;
+	overflow: hidden;
+	height: 40px;
+	letter-spacing: 3px;
+}
+.wrap .top i{
+	font-family: "kartika";
+    font-style: normal;
+	font-size: 14px;
+	line-height: 25px;
+	display: block;
+	overflow: hidden;
+	height: 25px;
+}
+.wrap .top em{
+	width: 40px;
+    height: 4px;
+    background: #000;
+    margin: auto;
+    display: inline-block;
+}
+.wrap .about{
+	width: 100%;
+    margin-bottom: 40px;	
+}
+.wrap .about dt{
+	width: 33.33333333%;
+	float: left;
+}
+.wrap .about dd{
+	width: 66.66666667%;
+}
+.wrap .about dt img{
+	width: 100%;
+    height: 366px;
+    vertical-align: top;
+}
+.wrap .about dd h6{
+	width: 100%;
+    height: 50px;
+    line-height: 40px;
+    font-size: 40px;
+    color: #7aa2cc;
+}
+.wrap .about dd .tip{
+	width: 100%;
+    padding: 10px 0 15px;
+    text-align: left;
+    font-size: 18px;
+    color: #D0D0D0;
+    line-height: 165%;
+}
+.wrap .about dd p{
+	width: 100%;
+    font-size: 14px;
+    color: #666;
+    line-height: 200%;
+    margin-bottom: 10px;
+}
+.wrap .about dd span{
+	display: inline-block;
+    zoom: 1;
+    width: auto;
+    padding: 0 12px;
+    color: #FFF;
+    background: #7aa2cc;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.home{
+	width: 100%;
+	background: #366dae;
+	padding: 60px 0px;
+}
+.home .con{
+	width: 98%;
+    margin: auto;
+    max-width: 1200px;
+}
+.home .con .top{
+	color: #fff;
+    text-align: center;
+}
+.home .con .top span{
+	font-size: 36px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    letter-spacing: 3px;
+}
+.home .con .top i{
+	font-size: 14px;
+    font-family: "kartika";
+    font-style: normal;
+    display: block;
+    overflow: hidden;
+    height: 25px;
+    line-height: 25px;
+}
+.home .con .top em{
+	width: 40px;
+    height: 4px;
+    background: #fff;
+    margin: auto;
+    display: inline-block;
+}
+.home .con ul{
+    padding: 20px 10px;
+    margin-top: 3%;
+}
+.home .con ul li{
+	background: #F7F7F7;
+    width: 25%;
+    float: left;
+    padding: 0px 5px;
+}
+.home .con ul li .pic{
+	position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.home .con ul li .pic img{
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    vertical-align: middle;
+    margin: auto;
+}
+.home .con ul li .pic i{
+	display: block;
+	padding-bottom: 96%;
+}
+.home .con ul li .pic a{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: url('../images/zhe_bg.png');
+    display: none;
+}
+.home .con ul li .ca{
+	text-align: center;
+    padding: 10px;
+}
+.home .con ul li .ca p{
+	color: #3c3c3c;
+    font-size: 15px;
+    line-height: 25px;
+    height: 25px;
+    overflow: hidden;
+}
+.home .con ul li .ca a{
+	color: #205da5;
+    font-size: 12px;
+    line-height: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+.nes .row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.nes .top{
+    color: #000;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+.nes .top span{
+    font-size: 36px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    overflow: hidden;
+    letter-spacing: 3px;
+}
+.nes .top i{
+    font-size: 14px;
+    font-family: kartika;
+    font-style: normal;
+    display: block;
+    overflow: hidden;
+    height: 25px;
+    line-height: 25px;
+    width: 100%;
+}
+.nes .top em{
+    width: 40px;
+    height: 4px;
+    background: #000;
+    margin: auto;
+    display: inline-block;
+}
+.nes .bd{
+    width: 100%;
+    height: 344.8px;
+    /* position: relative; */
+}
+/* .nes .bd a{
+   display: block;
+   position: relative;
+   width: 100%;
+   height: 100%;
+   padding-bottom: 75%;
+} */
+.nes .bd img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto 0;
+}
+.nes .bd .left{
+    width: 38px;
+    height: 128px;
+    background: rgba(93, 84,70, 0.6);
+    position: absolute;
+    margin-top: -50%;
+}
+.nes .bd .left img{
+    margin-top: 45px;
+    margin-left: 10px;
+}
+.nes .bd .right{
+    width: 38px;
+    height: 128px;
+    background: rgba(93, 84,70, 0.6);
+    position: absolute;
+    margin-top: -50%;
+    right: 0;
+}
+.nes .bd .right img{
+     margin-top: 45px;
+    margin-left: 10px;
+}
+.nes ul{
+    margin-bottom: 60px;
+}
+.nes ul li{
+    margin-top: 22px;
+    overflow: hidden;
+    height: 98px;
+}
+.nes ul li .pic{
+    width: 25%;
+}
+.nes ul li a{
+    display: block;
+    position: relative;
+}
+.nes ul li img{
+    display: block;
+    position: relative;
+    padding-bottom: 65.82%;
+    width: 100%;
+    height: 100%;
+}
+.nes ul li .tit{
+	width: 75%;
+}
+.nes ul li .tit a{
+    display: block;
+    font-size: 16px;
+    color: #323232;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.nes ul li .tit a:hover{
+    color: orange;
+    text-decoration: none;
+}
+.nes ul li .tit .time{
+    font-size: 14px;
+    color: #999999;
+    overflow: hidden;
+}
+.nes ul li .tit .desc{
+    height: 40px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #646464;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.warp{
+    width: 100%;
+    height: 324.2px;
+    background: #F4F4F4;
+}
+.warp .top{
+    color: #000;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+.warp .top span{
+    font-size: 34px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    overflow: hidden;
+    letter-spacing: 3px;
+}
+.warp .top i{
+    font-size: 12px;
+    font-family: "kartika";
+    font-style: normal;
+    display: block;
+    overflow: hidden;
+    height: 25px;
+    line-height: 25px;
+    width: 100%;
+}
+.warp .top em{
+    width: 40px;
+    height: 4px;
+    background: #000;
+    margin: auto;
+    display: inline-block;
+}
+.warp .quee{
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+}
+.warp .quee ul li{
+    display: inline;
+    float: left;
+    margin-right: 30px;
+}
+.warp .quee ul li:nth-child(5){
+	margin-right: 0;
+}
+.warp .quee ul li img{
+    border: 2px solid #044FA3;
+}
+footer{
+    width: 100%;
+    background: #2c2f34;
+    position: relative;
+}
+fottom .com{
+    max-width: 1200px;
+    width: 98%;
+    margin: auto;
+    padding: 3% 0px;
+}
+footer .com ul{
+    float: left;
+    width: 55%;
+    margin-top: 56px;
+}
+footer .com ul li{
+    width: 25%;
+    float: left;
+    border-left: 1px solid #424449;
+    padding-left: 15px;
+}
+footer .com ul li .tit{
+    font-size: 14px;
+    line-height: 24px;
+    height: 24px;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 10px;
+}
+footer .com ul li a{
+    display: block;
+    color: #97989a;
+    font-size: 12px;
+    line-height: 24px;
+    height: 24px;
+    overflow: hidden;
+    width: 100%;
+}
+footer .com ul li a:hover{
+    color: #337ab7;
+    text-decoration: none;
+}
+footer .right{
+    width: 40%;
+    float: right;
+}
+footer .right .er{
+    width: 105.6px;
+    float: left;
+}
+footer .right .er img{
+    border: 1px solid #606060;
+    padding: 10px;
+    margin-top: 30px;
+}
+footer .right .er span{
+    display: block;
+    line-height: 25px;
+    height: 25px;
+    color: #aeaeae;
+    font-size: 12px;
+    text-align: center;
+}
+footer .right .dian{
+	width: 40%;
+    float: right; 	
+    margin-top: 60px;
+}
+footer .right .dian img{
+    float: left;
+}
+footer .right .dian .rt{
+	float: left;
+}
+footer .right .dian a{
+    display: block;
+    color: #ffffff;
+    font-size: 1em;
+}
+footer .right .dian span{
+    display: block;
+    color: #fff;
+    font-size: 14px;
+}
+footer .bottom{
+	width: 100%;
+	height: 41px;
+    margin: auto;
+    border-top: 1px solid #97989a;
+    color: #505256;
+    font-size: 12px;
+    margin-top: 230px;
+}
+footer .copy{
+   max-width: 1200px;
+    width: 98%;
+    margin: auto;
+}
+footer .copy span{
+    width: 60%;
+    display: inline-block;
+    line-height: 20px
+}
+footer .copy span a{
+    color: rgb(139, 147, 157);
+}
+footer .copy .ya{
+    float: right;
+}
+footer .copy .ya img{
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+	nav .con_l .list a.text{
+		display: none;
+	}
+	nav .con_l .list a.icon{
+		display: inline;
+	}
+	.banner{
+		width: 100%;
+		height: 200px;
+	}
+	.wrap .about dt{
+		width: 100%;
+	}
+	.wrap .about dd{
+		width: 100%;
+	}
+	.nes .bd{
+		width: 100%;
+	}
+	.nes ul li .pic{
+		width: 33.33333333%;
+	}
+	.nes ul li .tit{
+		width: 66.66666667%;
+	}
+	footer .com ul li{
+		display: none;
+	}
+	footer .right{
+		width: 100%;
+		margin-top: -20px;
+	}
+}
+@media screen and(min-width: 992px){
+    
+}
