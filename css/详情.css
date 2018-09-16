@@ -27,13 +27,14 @@ nav .con_l a.left{
 	margin-top: 20px;
 }
 nav .con_l .list a{
-	float: left;
+    float: left;
+    width:130px;
     height: 80px;
     text-align: center;
     color: #404040;
     line-height:80px;
     font-size: 16px;
-    margin-left: 79px;
+    margin-left: 10px;
 }
 nav .con_l .list a:hover{
 	background-color: #337ab7;
@@ -481,7 +482,7 @@ footer{
     background: #2c2f34;
     position: relative;
 }
-fottom .com{
+footer .com{
     max-width: 1200px;
     width: 98%;
     margin: auto;

@@ -27,13 +27,14 @@ nav .con_l a.left{
 	margin-top: 20px;
 }
 nav .con_l .list a{
-	float: left;
+    float: left;
+    width:130px;
     height: 80px;
     text-align: center;
     color: #404040;
     line-height:80px;
     font-size: 16px;
-    margin-left: 79px;
+    margin-left: 10px;
 }
 nav .con_l .list a:hover{
 	background-color: #337ab7;
@@ -220,9 +221,8 @@ nav .con_l .list a.icon{
 	position: absolute;
     width: 100%;
     height: 100%;
-    top: 0px;
-    left: 0px;
-    background: url('../images/zhe_bg.png');
+    top: 0;
+    left: 0;
     display: none;
 }
 .home .con ul li .ca{
@@ -431,7 +431,7 @@ footer{
     background: #2c2f34;
     position: relative;
 }
-fottom .com{
+footer .com{
     max-width: 1200px;
     width: 98%;
     margin: auto;
@@ -561,7 +561,7 @@ footer .copy .ya img{
 	}
 	.banner{
 		width: 100%;
-		height: 200px;
+		height: 100%;
 	}
 	.wrap .about dt{
 		width: 100%;
